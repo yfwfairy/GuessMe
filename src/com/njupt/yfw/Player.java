@@ -14,7 +14,14 @@ public class Player {
 	private boolean cheated = false;
 	private boolean isReady = false;
 	
+	public Player(String n) {
+		name = n;
+		score = 0;
+	}
 	
+	public void autoPlay() {
+		//人类没有智能
+	}
 
 	public void setRps(Rps r) {
 		currentRps = r;
@@ -34,7 +41,7 @@ public class Player {
 		reset();
 	}
 	
-	private void reset() {
+	public void reset() {
 		cheated = false;
 		isReady = false;
 	}
