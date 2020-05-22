@@ -6,5 +6,8 @@ package com.njupt.yfw;
  *
  */
 public class TimeUtils {
-
+	
+	public static void startCountDownTask(int totalTime,PerformAtInterval performAtInterval) {
+		
+	}
 }

@@ -1,7 +1,7 @@
 package com.njupt.yfw;
 
+import com.njupt.yfw.GameLogic;
 import com.njupt.yfw.GameLogic.Rps;
-
 /**
  * ÕÊº“¿‡
  * @author 65699

@@ -8,5 +8,8 @@ import javax.swing.JFrame;
  *
  */
 public class HomePage extends JFrame{
-	
+	public static void main(String[] args)
+	{
+		
+	}
 }
